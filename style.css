@@ -1,5 +1,6 @@
 
 
+
 /* RESET */
 * {
     margin: 0;
@@ -291,6 +292,27 @@ footer {
         grid-template-columns: 1fr;
     }
 } 
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+} 
+
 
 
 
